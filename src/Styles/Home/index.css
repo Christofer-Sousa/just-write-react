@@ -1,0 +1,79 @@
+:root {
+    --color-primary: #7E0EE5;
+    --color-text: #fff;
+    --color-btn-hover: #9E35FF;
+    --bg-card: #EAEAEA;
+    --border-card: #B8B8B8;
+}
+main.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.title {
+    font-size: 48px;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+.btn-newpub {
+    width: 100px;
+    height: 30px;
+    background-color: var(--color-text);
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 5px;
+    color: var(--color-primary);
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+/* CARD SECTION */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+.card {
+    width: 250px;
+    background-color: var(--bg-card);
+    border-radius: 5px;
+    border:2px solid var(--border-card);
+    margin: 15px;
+    padding:20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.name-poema {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5px 0;
+}
+.name-autor {
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    margin: 5px 0;
+    margin-bottom: 25px;
+}
+
+.poema {
+    font-family: "Georgia", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px 0;
+    line-height: 1.7;
+}

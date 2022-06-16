@@ -1,0 +1,35 @@
+:root {
+    --color-primary: #7E0EE5;
+    --color-text: #fff;
+    --color-btn-hover: #9E35FF;
+}
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-container {
+    background-color: var(--color-primary);
+    width: 100%;
+    height: 70px;
+    color: var(--color-text);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+.nav-bar { 
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+   font-family: "Georgia", serif;
+   font-weight: 200; 
+}
+.logo a {
+    text-decoration: none;
+    color: var(--color-text);
+}
