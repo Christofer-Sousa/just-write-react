@@ -3,3 +3,9 @@
   from = "/"
   to = "/index.html"
   status = 200
+
+[[redirects]]
+
+  from = "/newpub"
+  to = "../src/pages/NewPub/index.jsx"
+  status = 200
