@@ -11,7 +11,7 @@ class MainRoutes extends Component {
         <Router>
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/newpub" element={<NewPub/>}/>
+                <Route path="https://justwritereact.netlify.app/newpub" element={<NewPub/>}/>
                 <Route path="*" element={<NotFound/>}/>
             </Routes>
         </Router>

@@ -7,7 +7,7 @@ const Header = () => {
         <header className="header-container">
           <div className="nav-bar container">
             <h1 className="logo"><a href="/">JUST WRITE</a></h1>
-            <a href="/newpub" className="btn-newpub">Novo</a>
+            <a href="https://justwritereact.netlify.app/newpub" className="btn-newpub">Novo</a>
           </div>
         </header>
       </>
